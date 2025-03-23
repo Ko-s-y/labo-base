@@ -1,2 +1,10 @@
 # labo-base
-iPadのみの場合に手っ取り早く検証するベースリポ
+
+iPad用 x Codespaces
+
+iPad単体でも（実機ではなくリモート上とはいえ）Flaskアプリを立ち上げる時用
+
+```
+$ pip install flask pyngrok python-dotenv
+$ python main.py
+```
